@@ -1,0 +1,31 @@
+.tweet__btn{
+   background-color: var(--twitter-color) !important;
+   border: none !important;
+   border-radius: 50px !important;
+   height: 40px !important;
+   color: white !important;
+   font-weight: 900  !important;
+   margin-left: 20px !important;
+   margin-top: 20px !important;
+   margin-right: 20px;
+   width: 20em !important;
+   /* To get rid of the uppercase */
+   text-transform: inherit !important;
+    
+}
+
+.twitter__icon{
+   color: var(--twitter-color);
+   padding: 20px;  
+   font-size: 2.5em !important;
+   margin-left: 40px;
+}
+
+.sidebar{
+   flex: 0.3;
+   border-right: 1px solid rgb(245, 244, 244);
+   /* min-width: 250px; */
+   padding-left: 20px;
+   padding-right:20px ;
+ 
+}

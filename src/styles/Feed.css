@@ -1,0 +1,27 @@
+.feed{
+    flex: 0.4;
+    border-right: 1px solid rgb(245, 244, 244);
+    height: 100vh;
+    
+    max-width: fit-content;
+    overflow-y: scroll;
+
+    /* Removing the scrollbar */
+    -ms-overflow-style: none; /*Hides it from Edge*/
+    scrollbar-width: none; /*Hides it from Firefox*/
+
+}
+
+/*Hides it from Chrome, Safari and Opera*/
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed_header{
+  font-size: 20px;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}

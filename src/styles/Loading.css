@@ -1,0 +1,21 @@
+.loading_page{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.twitter-icon{
+    color: var(--twitter-color);
+    font-size: 5em !important;
+}
+
+p{
+    display: block;
+    
+    color: rebeccapurple;
+}
